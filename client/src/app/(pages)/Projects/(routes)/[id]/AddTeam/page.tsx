@@ -96,7 +96,7 @@ export default function AddTeam({ params }: { params: Promise<{ id: string }> })
         </div>
         <button onClick={() => router.push(`/Projects/${projectId}`)} className="text-gray-600 hover:text-gray-900">
           <p className="flex items-center gap-2">
-            <span>العودة إلى كانبان</span> <ChevronRightIcon className="h-6 w-6" />
+            <span>العودة إلى التفاصيل </span> <ChevronRightIcon className="h-6 w-6" />
           </p>
         </button>
       </div>
