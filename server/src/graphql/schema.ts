@@ -23,8 +23,10 @@ import { userContactTypeDefs } from "./typeDefs/userContactTypedefs";
 import { userContactResolvers } from "./resolvers/userContactResolvers";
 import { accomplishedProjectTypeDefs } from "./typeDefs/accomplishedProjectTypeDefs";
 import { accomplishedProjectResolvers } from "./resolvers/accomplishedProjectResolver";
+import { prospectTypeDefs } from "./typeDefs/prospectTypedefs";
+import { prospectResolvers } from "./resolvers/prospectResolvers";
 
 export const schema = makeExecutableSchema({
-  typeDefs: [userTypeDefs , taskTypeDefs , projectTypeDefs , announcementTypeDefs , scheduleTypeDefs , activityTypeDefs, revenueTypeDefs, expenseTypeDefs, profitTypeDefs, payrollTypeDefs, userContactTypeDefs, accomplishedProjectTypeDefs],
-  resolvers: [userResolvers , taskResolvers , projectResolvers , announcementResolvers , scheduleResolvers , activityResolvers, revenueResolvers, expenseResolvers, profitResolvers, payrollResolvers, userContactResolvers, accomplishedProjectResolvers],
+  typeDefs: [userTypeDefs , taskTypeDefs , projectTypeDefs , announcementTypeDefs , scheduleTypeDefs , activityTypeDefs, revenueTypeDefs, expenseTypeDefs, profitTypeDefs, payrollTypeDefs, userContactTypeDefs, accomplishedProjectTypeDefs, prospectTypeDefs],
+  resolvers: [userResolvers , taskResolvers , projectResolvers , announcementResolvers , scheduleResolvers , activityResolvers, revenueResolvers, expenseResolvers, profitResolvers, payrollResolvers, userContactResolvers, accomplishedProjectResolvers, prospectResolvers],
 });

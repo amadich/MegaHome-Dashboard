@@ -58,6 +58,13 @@
    {
      "title": "الموظفين",
      "href": "/Dashboard/ManageUsers",
+     "icon": "BriefcaseIcon",
+     "category": "RECORDS",
+     "access": 1
+   },
+   {
+     "title": "المحتملين",
+     "href": "/Records/Prospects",
      "icon": "UsersIcon",
      "category": "RECORDS",
      "access": 1

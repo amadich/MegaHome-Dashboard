@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { HomeIcon, CheckCircleIcon, CalendarIcon, BoltIcon, FolderIcon, ChartBarIcon, UserGroupIcon, UsersIcon, CogIcon , CurrencyDollarIcon, BanknotesIcon , PresentationChartBarIcon, DocumentCurrencyDollarIcon , BuildingOfficeIcon } from '@heroicons/react/24/outline';
+import { HomeIcon, CheckCircleIcon, CalendarIcon, BoltIcon, FolderIcon, ChartBarIcon, UserGroupIcon, UsersIcon, CogIcon , CurrencyDollarIcon, BanknotesIcon , PresentationChartBarIcon, DocumentCurrencyDollarIcon , BuildingOfficeIcon , BriefcaseIcon } from '@heroicons/react/24/outline';
 
 const Icons = {
   HomeIcon,
@@ -20,7 +20,8 @@ const Icons = {
   BanknotesIcon,
   PresentationChartBarIcon,
   DocumentCurrencyDollarIcon,
-  BuildingOfficeIcon
+  BuildingOfficeIcon,
+  BriefcaseIcon
 };
 
 import navLinks from '@/data/navLinks.json'; // Import the JSON file
