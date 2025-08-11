@@ -2,6 +2,7 @@ import CertainMembers from "@/app/components/Projects/CertainMembers";
 import LoadingShow from "@/components/LoadingShow";
 import BtnAddTeam from "@/app/(pages)/Projects/(routes)/[id]/components/BtnAddTeam";
 import AccomplishedPage from "@/app/(pages)/Accomplished/page";
+import TasksPage from "@/app/(pages)/Tasks/page";
 
 
 export default async function Page({ params, }: { params: Promise<{ id: string }> }) {
@@ -37,7 +38,7 @@ export default async function Page({ params, }: { params: Promise<{ id: string }
          </div>
          <AccomplishedPage params={{ projectId: id }} />
          {/* Show The Kanban  */}
-         {/* <TasksPage projectId={id} /> */}
+         <TasksPage projectId={id} />
       </>
    )
  }
