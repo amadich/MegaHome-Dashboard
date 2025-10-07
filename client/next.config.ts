@@ -1,7 +1,6 @@
 
 
 const nextConfig = {
-  output: 'export',
   devIndicators: {
     appIsrStatus: false,
     buildActivity: false,
