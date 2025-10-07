@@ -1,6 +1,6 @@
+"use client";
 export const runtime = 'edge';
 
-"use client";
 import { useMutation, useQuery } from "@apollo/client";
 import { useEffect, useState } from "react";
 import { UPDATE_PROJECT, GET_PROJECT, GET_USERS } from "@/app/graphql/projectMutation";

@@ -1,6 +1,6 @@
+"use client";
 export const runtime = 'edge';
 
-"use client";
 
 import { useQuery, useMutation } from "@apollo/client";
 import { GET_CONTACT_BY_ID, UPDATE_CONTACT } from "@/app/graphql/contactOperations";
