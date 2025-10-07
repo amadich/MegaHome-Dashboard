@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 "use client";
 import { useMutation, useQuery } from "@apollo/client";
 import { useEffect, useState } from "react";

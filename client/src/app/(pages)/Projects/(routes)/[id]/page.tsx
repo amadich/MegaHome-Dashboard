@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import CertainMembers from "@/app/components/Projects/CertainMembers";
 import LoadingShow from "@/components/LoadingShow";
 import BtnAddTeam from "@/app/(pages)/Projects/(routes)/[id]/components/BtnAddTeam";

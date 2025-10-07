@@ -1,12 +1,14 @@
+export const runtime = 'edge';
+
 "use client";
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { gql, useQuery } from "@apollo/client";
 import { useRouter } from "next/navigation";
-import { 
-  UserCircleIcon, 
-  BriefcaseIcon, 
+import {
+  UserCircleIcon,
+  BriefcaseIcon,
   CalendarDaysIcon,
   EnvelopeIcon,
   CakeIcon,

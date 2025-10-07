@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import LoadingShow from "@/components/LoadingShow";
 import Updateuserget from "./Updateuserget";
 
